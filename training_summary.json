@@ -1,0 +1,292 @@
+{
+  "nb_text2tipo": {
+    "clasificacion": {
+      "Académico": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 42.0
+      },
+      "Familiar": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 43.0
+      },
+      "Judicial": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 17.0
+      },
+      "Laboral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 25.0
+      },
+      "Licencias": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 42.0
+      },
+      "Otros": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 17.0
+      },
+      "Personal": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 46.0
+      },
+      "Salud": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 42.0
+      },
+      "Vacaciones": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 26.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 300.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 300.0
+      }
+    },
+    "matriz_conf": [
+      [
+        42,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        43,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        17,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        42,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        17,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        42,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        26
+      ]
+    ]
+  },
+  "ocsvm_anomalia": {
+    "estado": "entrenado_sin_supervision"
+  },
+  "reg_impacto": {
+    "mse": 15.619869847135478,
+    "r2": 0.9473380385880634
+  },
+  "log_resultado": {
+    "clasificacion": {
+      "Aprobado": {
+        "precision": 0.77,
+        "recall": 1.0,
+        "f1-score": 0.8700564971751412,
+        "support": 231.0
+      },
+      "Rechazado": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 35.0
+      },
+      "Revisar": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 34.0
+      },
+      "accuracy": 0.77,
+      "macro avg": {
+        "precision": 0.25666666666666665,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.2900188323917137,
+        "support": 300.0
+      },
+      "weighted avg": {
+        "precision": 0.5929,
+        "recall": 0.77,
+        "f1-score": 0.6699435028248588,
+        "support": 300.0
+      }
+    },
+    "matriz_conf": [
+      [
+        231,
+        0,
+        0
+      ],
+      [
+        35,
+        0,
+        0
+      ],
+      [
+        34,
+        0,
+        0
+      ]
+    ]
+  },
+  "tree_resultado": {
+    "clasificacion": {
+      "Aprobado": {
+        "precision": 0.7711267605633803,
+        "recall": 0.948051948051948,
+        "f1-score": 0.8504854368932039,
+        "support": 231.0
+      },
+      "Rechazado": {
+        "precision": 0.15384615384615385,
+        "recall": 0.05714285714285714,
+        "f1-score": 0.08333333333333333,
+        "support": 35.0
+      },
+      "Revisar": {
+        "precision": 0.3333333333333333,
+        "recall": 0.029411764705882353,
+        "f1-score": 0.05405405405405406,
+        "support": 34.0
+      },
+      "accuracy": 0.74,
+      "macro avg": {
+        "precision": 0.4194354159142892,
+        "recall": 0.3448688566335625,
+        "f1-score": 0.32929094142686377,
+        "support": 300.0
+      },
+      "weighted avg": {
+        "precision": 0.6494941013602985,
+        "recall": 0.74,
+        "f1-score": 0.6707221347561153,
+        "support": 300.0
+      }
+    },
+    "matriz_conf": [
+      [
+        219,
+        11,
+        1
+      ],
+      [
+        32,
+        2,
+        1
+      ],
+      [
+        33,
+        0,
+        1
+      ]
+    ]
+  },
+  "kmeans_segmentacion": {
+    "estado": "entrenado_sin_supervision"
+  },
+  "knn_dias": {
+    "mse": 168.17506666666668,
+    "r2": -0.24721942054780977
+  }
+}
